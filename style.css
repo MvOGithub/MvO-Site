@@ -9,10 +9,6 @@ label {
 	color: #999;
 }
 
-h1 {
-	font-family: 'Open Sans';
-}
-
 .cf:before,
 .cf:after {
     content: ""; 
