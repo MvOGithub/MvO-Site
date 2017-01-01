@@ -1,0 +1,227 @@
+html {
+	font-size: 14pt;
+	color: #2F4F4F;
+	background: png('wood_pattern.png');
+	width: 100%;
+}
+label {
+	display: block;
+	color: #999;
+}
+
+h1 {
+	font-family: 'Chelsea Market', cursive;
+}
+
+.cf:before,
+.cf:after {
+    content: ""; 
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+:focus {
+	outline: 0;
+}
+.loginform {
+	width: 410px;
+	margin: 50px auto;
+	padding: 25px;
+	background-color: rgba(250,250,250,0.5);
+	border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2), 
+    			inset 0px 1px 0px 0px rgba(250, 250, 250, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.loginform ul {
+	padding: 0;
+	margin: 0;
+}
+.loginform li {
+	display: inline;
+	float: left;
+}
+.loginform input:not([type=submit]) {
+	padding: 5px;
+	margin-right: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 3px;
+	box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1), 
+				0px 1px 0px 0px rgba(250, 250, 250, 0.5) ;
+}
+.loginform input[type=submit] {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	background: #64c8ef; /* Old browsers */
+	background: -moz-linear-gradient(top,  #64c8ef 0%, #00a2e2 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#64c8ef), color-stop(100%,#00a2e2)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #64c8ef 0%,#00a2e2 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #64c8ef 0%,#00a2e2 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #64c8ef 0%,#00a2e2 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #64c8ef 0%,#00a2e2 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#64c8ef', endColorstr='#00a2e2',GradientType=0 ); /* IE6-9 */
+	color: #fff;
+	padding: 5px 15px;
+	margin-right: 0;
+	margin-top: 15px;
+	border-radius: 3px;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.strokeme:hover
+{
+	color:#fff;
+	text-shadow;
+	-1px -1px 0 #00f,
+	1px -px 0 #00f,
+	-1px 1px 0 #00f,
+	1px 1px 0 #00f;
+}
+
+img
+{
+	position: fixed;
+	height:auto;
+	right: 15px;
+}
+
+.fix{
+    position:fixed;
+    bottom:0px;
+    left:0%;
+}
+
+#body {
+	position: fixed;
+	left: 15px;
+	width: 100%;
+	height: 100%;
+	font-family: Open Sans;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 13px;
+	z-index: 99;
+}
+
+#scrolldiv {
+	overflow: scroll;
+	width:100%;
+	height:1080px;
+}
+
+#fixed {
+	bottom: 50px;
+	position: fixed;
+	width: 100%;
+}
+
+#bodylight {
+	position: fixed;
+	left: 15px;
+	width: 100%;
+	height: 100%;
+	font-family: Open Sans;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 13px;
+	color: #FFF8DC;
+}
+
+#list {
+	width: 100%;
+	height: 100%;
+	font-family: Open Sans;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 22px;
+}
+
+#paragraph {
+	width: 100%;
+	height: 100%;
+	font-family: Open Sans;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 11px;
+}
+
+#normal {
+	width: 100%;
+	height: 100%;
+	font-family: Open Sans;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 11px;
+}
+
+#bottomtext {
+	color: #FFF8DC;
+	position: absolute;
+}
+
+.button {
+    background-color: #8B0000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
+#animate-area	{ 
+	position: fixed;
+	width: 1920px; 
+	height: 1920px;
+	background-image: url(dark_wood.png);
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+	top: 80px;
+	
+	animation: animatedBackground 40s linear infinite;
+}
+
+#animate-area-2	{
+	position: fixed;
+	width: 1920px; 
+	height: 1920px; 
+	background-image: url(wood_pattern.png);
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+	top: 0px;
+	
+	animation: animatedBackground 40s linear infinite;
+}
+
+#Blue {
+	color: #0000FF;
+}
+
+#Green {
+	color: #006400;
+}
+
+#top {
+	position: fixed;
+	z-index: 99999;
+}
