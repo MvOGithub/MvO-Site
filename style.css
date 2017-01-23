@@ -102,7 +102,7 @@ img
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 13px;
-	z-index: 99;
+	z-index: -1;
 }
 
 #scrolldiv {
