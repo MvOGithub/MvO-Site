@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="normalize.css">
 	<link rel="stylesheet" href="style.css">
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 	<script type="jquery.simple-text-rotator.js"></script>
 	<link rel="stylesheet" type="text/css" href="simpletextrotator.css" />
 	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
@@ -26,6 +27,19 @@
 	    	<input type="email" name="_replyto" placeholder="Uw emailadres">
 	    	<input type="submit" value="Verstuur">
 	</form>
+	<p>Telefoonnummer: </p>
+	<script>
+	$(document).ready(function(){
+	  $("#hide").click(function(){
+	    $("p").hide();
+	  });
+	  $("#show").click(function(){
+	    $("p").show();
+	  });
+	});
+	</script>
+	<p style="display:none">0615452411</p>
+	<button id="show">Klik hier</button>
 		</div>
 <script type="text/javascript">
     	$(".rotate").textrotator({
