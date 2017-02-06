@@ -1,7 +1,8 @@
 html {
 	font-size: 14pt;
 	color: #2F4F4F;
-	background: png('wood_pattern.png');
+	background-image: url("geometry2.png");
+	background-repeat: repeat;
 	width: 100%;
 }
 label {
