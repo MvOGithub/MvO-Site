@@ -80,6 +80,7 @@ label {
 
 img
 {
+	left:5px;
 	position: fixed;
 	height:auto;
 }
