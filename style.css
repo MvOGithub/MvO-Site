@@ -81,6 +81,8 @@ label {
 img
 {
 	height:auto;
+	marging-left:auto;
+	marging-right:auto;
 }
 
 .fix{
